@@ -4,7 +4,7 @@ When to use mobx + react-beautiful-dnd, it doesn't work as expected if you just 
 
 ## their sample
 
-```js
+```jsx
   render() {
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
@@ -22,7 +22,7 @@ When to use mobx + react-beautiful-dnd, it doesn't work as expected if you just 
 
 ## you would chage like this for mobx (this won't work properly) 
 
-```js
+```jsx
 
   @mobx.observable items = [{id: "...", content: "..."}]
 
