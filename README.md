@@ -40,7 +40,9 @@ When to use mobx + react-beautiful-dnd, it doesn't work as expected if you just 
               style={getListStyle(snapshot.isDraggingOver)}
               {...provided.droppableProps}
             >
-              // mobx observable object here
+              {
+                // mobx observable object here
+              }
               {this.items.map((item, index) => (
                 <Draggable key={item.id} draggableId={item.id} index={index}>
 
