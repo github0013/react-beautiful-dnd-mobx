@@ -1,0 +1,20 @@
+.droppable {
+  height: 100px;
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.item {
+  user-select: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.drop-point {
+  display: flex;
+  padding: 10px;
+  height: 100px;
+  margin-bottom: 50px;
+  overflow: auto;
+}
